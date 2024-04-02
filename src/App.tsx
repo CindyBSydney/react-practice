@@ -8,6 +8,7 @@ import MovingDot from './components/MovingDot';
 import FeedbackForm from './components/FeedbackForm';
 import Form2 from './components/Form2';
 import Accordion from './components/Accordion';
+import Page from './components/Page';
 
 
 const user = {
@@ -76,6 +77,11 @@ function App() {
     <br />
     <br />
     <Accordion />
+
+    <br />
+    <br />
+    <br />
+    <Page />
 
     </div>
   );
