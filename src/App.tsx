@@ -4,6 +4,10 @@ import Lists from './components/Lists';
 import MyButton from './components/MyButton';
 import Board from './components/Board';
 import Form from './components/Form';
+import MovingDot from './components/MovingDot';
+import FeedbackForm from './components/FeedbackForm';
+import Form2 from './components/Form2';
+
 
 const user = {
   name: 'Cindy Bosibori',
@@ -20,6 +24,7 @@ function App() {
       <AboutPage />
       <Lists />
       <MyButton />
+      
     
 
     <h1>{user.name}</h1>
@@ -45,8 +50,27 @@ function App() {
     <br />
     <br />
     <Board />
-
+    
+    <br />
+    <br />
+    <br />
     <Form />
+
+    <br />
+    <br />
+    <br />
+    <MovingDot />
+
+    <br />
+    <br />
+    <br />
+    <FeedbackForm />
+
+    <br />
+    <br />
+    <br />
+    <Form2 />
+
 
     </div>
   );
