@@ -2,6 +2,7 @@ import './App.css';
 import AboutPage from './components/AboutPage';
 import Lists from './components/Lists';
 import MyButton from './components/MyButton';
+import Board from './components/Board';
 
 const user = {
   name: 'Cindy Bosibori',
@@ -38,6 +39,11 @@ function App() {
     <MyButton />
     <MyButton />
       */}
+
+    <br />
+    <br />
+    <br />
+    <Board />
 
     </div>
   );
