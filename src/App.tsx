@@ -1,24 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AboutPage from './components/AboutPage';
+import Lists from './components/Lists';
+import MyButton from './components/MyButton';
+
+const user = {
+  name: 'Cindy Bosibori',
+  imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+  imageSize: 90,
+};
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>This is the start of the app</h1>
+      <AboutPage />
+      <Lists />
+      <MyButton />
+    
+
+    <h1>{user.name}</h1>
+    <img
+      className='avatar'
+      src={user.imageUrl}
+      alt={'photo of' + user.name}
+      style = {{
+        width: user.imageSize,
+        height: user.imageSize,
+        borderRadius: user.imageSize / 2,
+      }}
+    />
+
+    {/*<MyButton />
+    <h1>Rendering the same component multiple times means that each will have its own state</h1>
+    <h2>Counters update separately</h2>
+    <MyButton />
+    <MyButton />
+      */}
+
     </div>
   );
 }
