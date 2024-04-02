@@ -3,6 +3,7 @@ import AboutPage from './components/AboutPage';
 import Lists from './components/Lists';
 import MyButton from './components/MyButton';
 import Board from './components/Board';
+import Form from './components/Form';
 
 const user = {
   name: 'Cindy Bosibori',
@@ -44,6 +45,8 @@ function App() {
     <br />
     <br />
     <Board />
+
+    <Form />
 
     </div>
   );
