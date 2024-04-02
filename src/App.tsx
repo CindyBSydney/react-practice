@@ -9,6 +9,7 @@ import FeedbackForm from './components/FeedbackForm';
 import Form2 from './components/Form2';
 import Accordion from './components/Accordion';
 import Page from './components/Page';
+import ProfilePage from './components/ProfilePage';
 
 
 const user = {
@@ -82,6 +83,11 @@ function App() {
     <br />
     <br />
     <Page />
+
+    <br />
+    <br />
+    <br />
+    <ProfilePage />
 
     </div>
   );
